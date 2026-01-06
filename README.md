@@ -1,2 +1,429 @@
-# rezaaswin
-portfolio
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reza Aswin Saputra | IT Operations & Digital Transformation Portfolio</title>
+    
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="Portofolio Profesional Reza Aswin Saputra - Ahli IT Operations, Field Engineer, dan Koordinator Digitalisasi dengan pengalaman lebih dari 5 tahun.">
+    <meta name="keywords" content="Reza Aswin Saputra, IT Operations, Field Engineer, Fleet Management System, Digitalisasi BPN, Portofolio IT">
+    <meta name="author" content="Reza Aswin Saputra">
+    
+    <!-- Open Graph untuk Media Sosial -->
+    <meta property="og:title" content="Reza Aswin Saputra | IT Operations Impact">
+    <meta property="og:description" content="Melihat dampak nyata transformasi digital dan stabilitas operasional melalui data.">
+    <meta property="og:type" content="website">
+    
+    <!-- Scripts & Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Roboto', sans-serif; background-color: #F8FAFC; color: #1E293B; scroll-behavior: smooth; }
+        
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .vibrant-text { color: #2563EB; } 
+        .vibrant-bg { background-color: #2563EB; }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        /* Sticky Nav Effect */
+        nav { backdrop-filter: blur(10px); }
+    </style>
+    <!-- Palette: Brilliant Blues (Primary: #2563EB Blue-600, Secondary: #06B6D4 Cyan-500, Dark: #1E293B Slate-800) -->
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 border-b border-slate-200 py-3 px-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <span class="font-black text-blue-600 tracking-tighter text-xl">RAS.</span>
+            <div class="space-x-6 text-sm font-bold text-slate-600 hidden md:block">
+                <a href="#ringkasan" class="hover:text-blue-600 transition">Ringkasan</a>
+                <a href="#stabilitas" class="hover:text-blue-600 transition">Stabilitas</a>
+                <a href="#digitalisasi" class="hover:text-blue-600 transition">Digitalisasi</a>
+                <a href="#kompetensi" class="hover:text-blue-600 transition">Kompetensi</a>
+            </div>
+            <a href="mailto:rezaswins@gmail.com" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-xs font-bold hover:bg-blue-700 transition">Kontak Saya</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-slate-900 to-blue-900 text-white py-20 px-4 shadow-lg">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-black tracking-tight mb-4">
+                REZA ASWIN SAPUTRA
+            </h1>
+            <p class="text-xl md:text-2xl font-light text-blue-200 mb-8 tracking-wide">
+                IT OPERATIONS & DIGITAL TRANSFORMATION IMPACT
+            </p>
+            <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
+                <span class="text-lg font-medium">🚀 "Teknologi hanya bernilai jika menjaga operasional tanpa hambatan."</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 pb-20 space-y-24 mt-16">
+
+        <!-- Section 1: Introduction & Core Metrics -->
+        <section id="ringkasan" class="scroll-mt-24">
+            <div class="mb-10 border-l-4 border-blue-600 pl-4">
+                <h2 class="text-3xl font-bold text-slate-800 mb-2">Ringkasan Dampak Profesional</h2>
+                <p class="text-slate-600 max-w-3xl">
+                    Sebagai profesional IT dengan pengalaman lebih dari 5 tahun, fokus utama saya adalah stabilitas sistem dan efisiensi. 
+                    Data berikut merangkum pencapaian kunci dalam pengelolaan infrastruktur, digitalisasi dokumen negara, dan pemeliharaan jaringan.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card border-t-4 border-blue-500 text-center">
+                    <div class="text-4xl font-black text-blue-600 mb-2">98%</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wider">System Uptime</div>
+                    <p class="text-xs text-slate-400 mt-2">Konsisten menjaga stabilitas operasional di PT Pama Persada.</p>
+                </div>
+                <div class="card border-t-4 border-cyan-500 text-center">
+                    <div class="text-4xl font-black text-cyan-600 mb-2">500K+</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wider">Dokumen Digital</div>
+                    <p class="text-xs text-slate-400 mt-2">Arsip pertanahan BPN yang berhasil didigitalisasi.</p>
+                </div>
+                <div class="card border-t-4 border-blue-500 text-center">
+                    <div class="text-4xl font-black text-blue-600 mb-2">50%</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wider">Efisiensi Data</div>
+                    <p class="text-xs text-slate-400 mt-2">Peningkatan kecepatan akses data pasca transformasi.</p>
+                </div>
+                <div class="card border-t-4 border-cyan-500 text-center">
+                    <div class="text-4xl font-black text-cyan-600 mb-2">&lt;1%</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wider">Disruption Rate</div>
+                    <p class="text-xs text-slate-400 mt-2">Tingkat gangguan jaringan minimum yang dipertahankan.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Operational Stability Analysis -->
+        <section id="stabilitas" class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start scroll-mt-24">
+            <div>
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2 flex items-center gap-2">
+                        <span class="text-blue-600 text-3xl">⚙</span> Stabilitas Operasional
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Dalam lingkungan kritis seperti pertambangan dan telekomunikasi, waktu adalah aset paling berharga. 
+                        Visualisasi ini menunjukkan performa dukungan teknis dan rasio uptime sistem yang dijaga ketat.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="chart-container">
+                        <canvas id="supportVolumeChart"></canvas>
+                    </div>
+                    <p class="text-center text-xs font-semibold text-slate-500 mt-4 uppercase tracking-tighter">
+                        Volume Dukungan Teknis Bulanan
+                    </p>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <div class="card">
+                    <div class="chart-container" style="height: 250px;">
+                        <canvas id="uptimeChart"></canvas>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <span class="text-3xl font-black text-blue-600">25%</span>
+                        <span class="block text-sm text-slate-500">Pengurangan Downtime Operasional</span>
+                    </div>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <h4 class="font-bold text-blue-800 mb-2">Strategi Pemulihan</h4>
+                    <p class="text-sm text-blue-700 mb-3">
+                        Penerapan monitoring real-time mempercepat waktu pemulihan insiden (MTTR) secara signifikan.
+                    </p>
+                    <div class="w-full bg-blue-200 rounded-full h-4">
+                        <div class="bg-blue-600 h-4 rounded-full" style="width: 80%"></div>
+                    </div>
+                    <div class="flex justify-between text-xs font-bold text-blue-600 mt-1 uppercase">
+                        <span>Respon Standar</span>
+                        <span>Accelerated Recovery</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Digital Transformation Scale -->
+        <section id="digitalisasi" class="scroll-mt-24">
+            <div class="mb-8 text-center max-w-3xl mx-auto">
+                <h3 class="text-2xl font-bold text-slate-800 mb-2">Skala Transformasi Digital</h3>
+                <p class="text-slate-600 text-sm">
+                    Memimpin tim 25 personel dalam proyek nasional BPN. Grafik di bawah mengilustrasikan distribusi dokumen digital di berbagai wilayah kerja.
+                </p>
+            </div>
+            
+            <div class="card">
+                <div class="chart-container">
+                    <canvas id="digitizationChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Skills & Competencies -->
+        <section id="kompetensi" class="grid grid-cols-1 md:grid-cols-2 gap-12 scroll-mt-24">
+            <div>
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2 flex items-center gap-2">
+                        <span class="text-cyan-600 text-3xl">⚡</span> Matriks Kompetensi
+                    </h3>
+                    <p class="text-slate-600 text-sm">
+                        Keseimbangan antara kemampuan teknis (Hard Skills) dan manajerial (Soft Skills).
+                    </p>
+                </div>
+                <div class="card flex items-center justify-center">
+                    <div class="chart-container">
+                        <canvas id="skillsRadarChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div class="card bg-slate-800 text-white">
+                    <h4 class="text-lg font-bold text-blue-400 mb-4 border-b border-slate-700 pb-2">Keahlian Teknis Utama</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-2xl mr-3">💻</span>
+                            <div>
+                                <strong class="block text-blue-200">Fleet Management System (FMS)</strong>
+                                <span class="text-sm text-slate-400">Instalasi, Kalibrasi GPS/Sensor, Pemeliharaan Software.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-2xl mr-3">📡</span>
+                            <div>
+                                <strong class="block text-blue-200">Network Operations (NOC)</strong>
+                                <span class="text-sm text-slate-400">Monitoring 300+ User, Mikrotik, Troubleshooting Jaringan.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-2xl mr-3">🗄️</span>
+                            <div>
+                                <strong class="block text-blue-200">Manajemen Data</strong>
+                                <span class="text-sm text-slate-400">Digitalisasi Arsip, Struktur Database, Kontrol Kualitas.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card border-l-4 border-cyan-500">
+                    <h4 class="font-bold text-slate-800 mb-2">Kepemimpinan Tim</h4>
+                    <p class="text-sm text-slate-600 mb-4">
+                        Mengelola dan melatih tim besar untuk target proyek nasional yang ketat.
+                    </p>
+                    <div class="flex items-center gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-black text-cyan-600">25</div>
+                            <div class="text-[10px] uppercase font-bold text-slate-500">Personel</div>
+                        </div>
+                        <div class="flex-1 h-3 bg-slate-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-cyan-500" style="width: 100%"></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-black text-cyan-600">8</div>
+                            <div class="text-[10px] uppercase font-bold text-slate-500">Proyek BPN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center border-t border-slate-200 pt-16 mt-20">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Mari Berkolaborasi</h2>
+            <p class="text-slate-500 mb-8 max-w-xl mx-auto italic">"Berfokus pada penyediaan solusi infrastruktur IT yang tangguh untuk mendukung pertumbuhan bisnis yang berkelanjutan."</p>
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <a href="mailto:rezaswins@gmail.com" class="bg-blue-600 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition">Email Saya</a>
+                <a href="https://linkedin.com/in/rezaswins" target="_blank" class="bg-slate-800 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition">LinkedIn</a>
+            </div>
+            <div class="text-sm font-medium text-slate-400 space-y-1">
+                <p>&copy; 2024 Reza Aswin Saputra</p>
+                <p class="text-xs uppercase tracking-widest">Built with precision for professional excellence</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        // --- DATA PROCESSING UTILITIES ---
+        function wrapLabel(label, maxLength = 16) {
+            if (label.length <= maxLength) return label;
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = words[0];
+
+            for (let i = 1; i < words.length; i++) {
+                if ((currentLine + " " + words[i]).length <= maxLength) {
+                    currentLine += " " + words[i];
+                } else {
+                    lines.push(currentLine);
+                    currentLine = words[i];
+                }
+            }
+            lines.push(currentLine);
+            return lines;
+        }
+
+        function processLabels(labels) {
+            return labels.map(l => wrapLabel(l));
+        }
+
+        const tooltipConfig = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            return Array.isArray(label) ? label.join(' ') : label;
+                        }
+                    }
+                }
+            }
+        };
+
+        // --- CHART CONFIGURATIONS ---
+
+        // 1. Support Volume
+        const ctxSupport = document.getElementById('supportVolumeChart').getContext('2d');
+        new Chart(ctxSupport, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['Tiket Teknis Bulanan', 'Insiden Jaringan Bulanan']),
+                datasets: [{
+                    label: 'Volume Rata-rata',
+                    data: [200, 80],
+                    backgroundColor: ['#2563EB', '#06B6D4'],
+                    borderRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                ...tooltipConfig,
+                plugins: { ...tooltipConfig.plugins, legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: '#f1f5f9' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // 2. Uptime
+        const ctxUptime = document.getElementById('uptimeChart').getContext('2d');
+        new Chart(ctxUptime, {
+            type: 'doughnut',
+            data: {
+                labels: ['System Uptime', 'Allowable Downtime'],
+                datasets: [{
+                    data: [98, 2],
+                    backgroundColor: ['#2563EB', '#E2E8F0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '80%',
+                ...tooltipConfig,
+                plugins: { 
+                    ...tooltipConfig.plugins,
+                    legend: { position: 'bottom', labels: { usePointStyle: true, font: { size: 11, weight: 'bold' } } } 
+                }
+            }
+        });
+
+        // 3. Digitization Scale
+        const ctxDigital = document.getElementById('digitizationChart').getContext('2d');
+        new Chart(ctxDigital, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['BPN Temanggung', 'BPN Sukabumi', 'BPN Subang', 'BPN Indramayu', 'BPN Pelalawan', 'BPN Kampar', 'BPN Teluk Meranti', 'BPN Pekanbaru']),
+                datasets: [{
+                    label: 'Jumlah Dokumen',
+                    data: [65000, 72000, 58000, 61000, 55000, 68000, 49000, 72000],
+                    backgroundColor: '#3B82F6',
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                ...tooltipConfig,
+                plugins: { ...tooltipConfig.plugins, legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: '#f1f5f9' } },
+                    x: { ticks: { font: { size: 10 } } }
+                }
+            }
+        });
+
+        // 4. Skills Radar
+        const ctxSkills = document.getElementById('skillsRadarChart').getContext('2d');
+        new Chart(ctxSkills, {
+            type: 'radar',
+            data: {
+                labels: processLabels(['Troubleshooting Hardware', 'Network Monitoring', 'Team Leadership', 'FMS & GPS Calibration', 'Data Management', 'Communication']),
+                datasets: [{
+                    label: 'Kompetensi',
+                    data: [95, 85, 90, 95, 90, 85],
+                    backgroundColor: 'rgba(6, 182, 212, 0.2)',
+                    borderColor: '#06B6D4',
+                    borderWidth: 2,
+                    pointBackgroundColor: '#06B6D4'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                ...tooltipConfig,
+                scales: {
+                    r: {
+                        suggestedMin: 50,
+                        suggestedMax: 100,
+                        pointLabels: { font: { size: 11, weight: 'bold' } }
+                    }
+                },
+                plugins: { ...tooltipConfig.plugins, legend: { display: false } }
+            }
+        });
+    </script>
+</body>
+</html>
